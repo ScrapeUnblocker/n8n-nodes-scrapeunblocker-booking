@@ -55,7 +55,6 @@ The token starts with `apify_api_`. Treat it like a password: anyone who has it 
 
 Already have an **Apify API** credential in n8n (for example from the official Apify node)? This node uses the same credential type, so you can simply select it.
 
-
 ## Operations
 
 Pick a **Resource** and an **Operation**. Each n8n input item starts one Apify run. List fields accept several values separated by commas or new lines, or an array returned by an expression.
@@ -95,7 +94,6 @@ The node can be attached to an n8n **AI Agent** as a tool, so the agent can call
 
 - One item per property, with Booking.com ID, name and URL, review score and review count, address, city and country code, latitude / longitude and an image.
 - Prices (total for the stay, as a number and as text, with currency) are only returned when you set **Check-In Date** and **Check-Out Date** in the options.
-
 
 Fields of a returned item: `id`, `name`, `reviewScore`, `reviewCount`, `address`, `city`, `country`, `latitude`, `longitude`, `image`, `url`.
 
